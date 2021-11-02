@@ -19,7 +19,7 @@
     width: 200px;
     height: 200px;
 
-    background-color: black;
+    background-color: bisque;
 
     margin-bottom: 40px;
 
@@ -28,7 +28,7 @@
 // }
 }
 
-.card-body.card-name {
+h3.card-name {
     font-size: 24px !important;
     font-weight: 400 !important;
     line-height: 0.75 !important;
@@ -46,14 +46,37 @@ h4.card-profesion {
     margin-bottom: 25px !important;
 }
 
+.text-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $primery-text-color;
+
+    margin-bottom: 30px;
+
+}
 
 .social-link {
-    display: flex;
+    // display: flex;
     border: none;
-    width: 44px;
-    height: 44px;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
+
+    background-color: $bg-social-color;
+    // justify-content: center;
+    // align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link {
+    fill: white;
+
+    .social-link:hover & {
+        fill: $accent-color;
+    }
+}
+
+.card-body {
+    padding: 0px 28px 0 28px;
 }

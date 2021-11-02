@@ -1,0 +1,27 @@
+.skills-title {
+    @extend %title; 
+
+    color: $primery-text-color;
+}
+
+.skills-text {
+    @extend %text;
+
+    color: $primery-text-color;
+}
+
+.scale-progress {
+    margin-bottom: 28px;
+}
+
+.progress-number {
+    font-size: 40px;
+}
+
+.progress-text {
+    font-size:24px;
+    font-weight: 700;
+    line-height: 0.75;
+
+    color: $primery-text-color;
+}

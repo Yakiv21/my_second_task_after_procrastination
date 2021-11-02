@@ -26,16 +26,17 @@
 }
 
 .btn {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.44;
-    color: $white-text-color;
+    // font-size: 18px;
+    // font-weight: 600;
+    // line-height: 1.44;
+    // color: $white-text-color;
 
-    min-width: 295px;
+    // min-width: 295px;
 
-    padding-top:30px;
-    padding-bottom:30px;
+    // padding-top:30px;
+    // padding-bottom:30px;
+
+    @extend %btn;
 
     background-color: $bg-btn-header;
-
 }

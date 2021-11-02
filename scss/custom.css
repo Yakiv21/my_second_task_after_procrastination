@@ -11006,7 +11006,7 @@ fieldset:disabled .btn {
   }
 }
 
-.services-title, .beautiful-title {
+.services-title, .beautiful-title, .skills-title, .portfolio-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 0.75;
@@ -11014,12 +11014,12 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
-  .services-title, .beautiful-title {
+  .services-title, .beautiful-title, .skills-title, .portfolio-title {
     font-size: 40px;
   }
 }
 
-.beautiful-text {
+.services-text, .beautiful-text, .skills-text, .portfolio-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.44;
@@ -11027,7 +11027,7 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
-  .beautiful-text {
+  .services-text, .beautiful-text, .skills-text, .portfolio-text {
     margin-bottom: 80px;
   }
 }
@@ -11191,10 +11191,106 @@ nav {
   color: #3c4761;
 }
 
-.card-img-top {
+.card-img-beautiful {
   width: 200px;
   height: 200px;
-  background-color: black;
+  background-color: bisque;
   margin-bottom: 40px;
+}
+
+h3.card-name, .card-name.h3 {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 0.75 !important;
+  color: #27283d !important;
+  margin-bottom: 15px !important;
+}
+
+h4.card-profesion, .card-profesion.h4 {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.12 !important;
+  color: #30bae7 !important;
+  margin-bottom: 25px !important;
+}
+
+.text-description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #3c4761;
+  margin-bottom: 30px;
+}
+
+.social-link {
+  border: none;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #bdd1df;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link {
+  fill: white;
+}
+
+.social-link:hover .icon-link {
+  fill: #30bae7;
+}
+
+.card-body {
+  padding: 0px 28px 0 28px;
+}
+
+.skills-title {
+  color: #3c4761;
+}
+
+.skills-text {
+  color: #3c4761;
+}
+
+.scale-progress {
+  margin-bottom: 28px;
+}
+
+.progress-number {
+  font-size: 40px;
+}
+
+.progress-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0.75;
+  color: #3c4761;
+}
+
+.section-portfolio {
+  background-color: #ffdd99;
+}
+
+.portfolio-title {
+  color: #3c4761;
+}
+
+.portfolio-text {
+  color: #3c4761;
+}
+
+.item-button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.portfolio-button {
+  padding: 12px 27px;
+  background-color: #ebc985;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.portfolio-button.current-btn {
+  background-color: white;
 }
 /*# sourceMappingURL=custom.css.map */

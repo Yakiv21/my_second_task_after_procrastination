@@ -1,0 +1,52 @@
+.section-portfolio {
+    background-color: $bg-portfolio-color;
+}
+
+.portfolio-title {
+    @extend %title;
+
+    color: $primery-text-color;
+}
+
+.portfolio-text {
+    @extend %text;
+
+    color: $primery-text-color;
+}
+
+.list-btn-portfolio {
+    margin-bottom: 40px;
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 80px;
+    }
+}
+
+.item-button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.portfolio-button {
+    padding: 12px 27px;
+
+    background-color: $bg-litle-btn-portfolio;
+
+    border-radius: 4px;
+    border: 0px;
+    &.current-btn {
+        background-color: white;
+    }
+}
+
+.item-portfolio {
+    margin-bottom: 40px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 65px;
+    }
+}
+
+.btn-portfoliio {
+    @extend %btn;
+
+    background-color: $bg-btn-portfolio;
+}
