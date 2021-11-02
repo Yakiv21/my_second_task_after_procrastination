@@ -1,0 +1,65 @@
+.section-reviews {
+    background-color: $bg-reviews-color;
+}
+
+.reviews-title {
+    @extend %title;
+
+    color: $white-text-color;
+}
+
+.reviews-text {
+    @extend %text;
+
+    color: $white-text-color;
+}
+
+.item-reviews {
+    margin-bottom: 70px !important;
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 150px !important;
+    }
+}
+
+.img-clients {
+    width: 80px;
+    height: 80px;
+
+    background-color: $yellow;
+
+    margin-right: 50px;
+}
+
+.client-review {
+    max-width: 330px;
+}
+
+.text-review {
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.47;
+
+    color: $white-text-color;
+
+    margin-bottom: 30px;
+}
+
+.name-client {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    color: $white-text-color;
+
+    margin-bottom: 10px;
+}
+
+.profession-client {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 400;
+
+    color: $profesion-text-color;
+}

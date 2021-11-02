@@ -14,7 +14,8 @@
     color: $primery-text-color;
 }
 
-.list-btn-portfolio {
+ul.list-btn-portfolio {
+    margin-top: 0px;
     margin-bottom: 40px;
 
     @include media-breakpoint-up(lg) {
@@ -38,6 +39,10 @@
     }
 }
 
+.list-portfolio {
+    margin-bottom: 80px !important;
+}
+
 .item-portfolio {
     margin-bottom: 40px;
     @include media-breakpoint-up(lg) {
@@ -45,8 +50,15 @@
     }
 }
 
+.computers {
+    margin-bottom: 30px;
+}
+
 .btn-portfoliio {
     @extend %btn;
+    color: $white-text-color;
 
     background-color: $bg-btn-portfolio;
+
+    border: 0px;
 }

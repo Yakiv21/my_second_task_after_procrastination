@@ -11006,7 +11006,7 @@ fieldset:disabled .btn {
   }
 }
 
-.services-title, .beautiful-title, .skills-title, .portfolio-title {
+.services-title, .beautiful-title, .skills-title, .portfolio-title, .reviews-title, .address-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 0.75;
@@ -11014,12 +11014,12 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
-  .services-title, .beautiful-title, .skills-title, .portfolio-title {
+  .services-title, .beautiful-title, .skills-title, .portfolio-title, .reviews-title, .address-title {
     font-size: 40px;
   }
 }
 
-.services-text, .beautiful-text, .skills-text, .portfolio-text {
+.services-text, .beautiful-text, .skills-text, .portfolio-text, .reviews-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.44;
@@ -11027,9 +11027,18 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
-  .services-text, .beautiful-text, .skills-text, .portfolio-text {
+  .services-text, .beautiful-text, .skills-text, .portfolio-text, .reviews-text {
     margin-bottom: 80px;
   }
+}
+
+.btn, .btn-portfoliio, .btn-form {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.44;
+  min-width: 295px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 ul li {
@@ -11135,13 +11144,7 @@ nav {
 }
 
 .btn {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.44;
   color: #fff;
-  min-width: 295px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-color: #eb7d4b;
 }
 
@@ -11279,6 +11282,17 @@ h4.card-profesion, .card-profesion.h4 {
   color: #3c4761;
 }
 
+ul.list-btn-portfolio {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  ul.list-btn-portfolio {
+    margin-bottom: 80px;
+  }
+}
+
 .item-button:not(:last-child) {
   margin-right: 10px;
 }
@@ -11292,5 +11306,173 @@ h4.card-profesion, .card-profesion.h4 {
 
 .portfolio-button.current-btn {
   background-color: white;
+}
+
+.list-portfolio {
+  margin-bottom: 80px !important;
+}
+
+.item-portfolio {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .item-portfolio {
+    margin-bottom: 65px;
+  }
+}
+
+.computers {
+  margin-bottom: 30px;
+}
+
+.btn-portfoliio {
+  color: #fff;
+  background-color: #17c2a4;
+  border: 0px;
+}
+
+.section-reviews {
+  background-color: #d74680;
+}
+
+.reviews-title {
+  color: #fff;
+}
+
+.reviews-text {
+  color: #fff;
+}
+
+.item-reviews {
+  margin-bottom: 70px !important;
+}
+
+@media (min-width: 992px) {
+  .item-reviews {
+    margin-bottom: 150px !important;
+  }
+}
+
+.img-clients {
+  width: 80px;
+  height: 80px;
+  background-color: #ffc107;
+  margin-right: 50px;
+}
+
+.client-review {
+  max-width: 330px;
+}
+
+.text-review {
+  font-size: 21px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.47;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.name-client {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.profession-client {
+  font-size: 18px;
+  line-height: 1.44;
+  font-weight: 400;
+  color: #ffdd99;
+}
+
+.section-address {
+  background-color: #3c5499;
+}
+
+.address-title {
+  color: #fff;
+}
+
+.address {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .address {
+    font-size: 77px;
+  }
+}
+
+.address-phone,
+.city-address {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.44;
+  color: #fff;
+}
+
+.address-phone:hover {
+  color: #fff;
+}
+
+.form-name {
+  margin-bottom: 27px;
+}
+
+.form-div {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .form-div {
+    font-size: 60px;
+  }
+}
+
+.form-input {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  padding: 22px 24px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #273a71;
+}
+
+.btn-form {
+  color: #fff;
+  background-color: #30bae7;
+  border: 0px;
+}
+
+.footer {
+  background-color: #344b8e;
+}
+
+.container-footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.social {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .social {
+    font-size: 24px;
+  }
+}
+
+.social:hover {
+  color: #30bae7;
 }
 /*# sourceMappingURL=custom.css.map */

@@ -38,5 +38,7 @@
 
     @extend %btn;
 
+    color: $white-text-color;
+
     background-color: $bg-btn-header;
 }
