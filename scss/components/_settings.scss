@@ -1,0 +1,30 @@
+ul li{list-style: none;}
+a, a:visited{text-decoration: none;}
+
+body {
+    color: $primery-text-color !important;
+    font-family: Titillium Web, sans-serif;
+    letter-spacing: 0.03em;
+}
+  
+footer {
+  color: $bg-footer-color;
+}
+
+.container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 125px !important;
+        padding-bottom: 125px !important
+    }
+}
+
+.section-line {
+    width: 88px;
+    height: 2px;
+    background-color: $bg-line-color;
+}

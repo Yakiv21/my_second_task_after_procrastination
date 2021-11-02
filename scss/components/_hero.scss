@@ -1,0 +1,41 @@
+.section-hero {
+    background-color: $bg-container-color;
+}
+
+.hero {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+    @include media-breakpoint-up(lg) {
+    padding-top: 150px !important;
+    padding-bottom: 145px !important;
+}
+}
+
+.hero-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: $white-text-color;
+
+    @include media-breakpoint-up(lg) {
+    font-size: 42px;
+}
+    margin-bottom: 55px;
+
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.44;
+    color: $white-text-color;
+
+    min-width: 295px;
+
+    padding-top:30px;
+    padding-bottom:30px;
+
+    background-color: $bg-btn-header;
+
+}
